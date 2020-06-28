@@ -1,0 +1,22 @@
+//To access the array elements
+#include<conio.h>
+#include<iostream>
+using namespace std;
+#define size 5
+
+
+int main()
+{
+	int a[size];  
+  	 cout<<"Enter the array elements:";
+  	 for(int i=0;i<size;i++)
+  	 {
+  	 	cin>>a[i];
+	   }
+	   cout<<"The array elements are:";
+	   for(int i=0;i<size;i++)
+  	 {
+  	 	cout<<a[i]<<"\t";
+	   }
+ 	 return 0;
+}
